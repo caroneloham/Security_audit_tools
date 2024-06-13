@@ -8,7 +8,7 @@
 [![datetime](https://img.shields.io/badge/datetime-FFA500?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/datetime.html)
 [![docx](https://img.shields.io/badge/docx-6C757D?style=flat-square&logo=python&logoColor=white)](https://python-docx.readthedocs.io/en/latest/)
 
-<img src="img/logo.img" alt="Audit de Sécurité" width="200" />
+<img src="img/logo.png" alt="Audit de Sécurité" width="200" />
 
 ## 📝 Description
 
