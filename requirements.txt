@@ -1,0 +1,7 @@
+psutil
+subprocess
+platform
+os
+json
+datetime
+python-docx
