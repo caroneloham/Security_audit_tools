@@ -19,30 +19,49 @@ This repository contains scripts for performing a comprehensive network security
 - `Analyse.py`: Script for collecting and analyzing system and network information.
 - `Resume.py`: Script for generating a detailed audit report in a Word document format.
 
-## 🛠️ Methodology
+## 🛠️ Setup and Usage
 
-The audit follows a structured methodology, including the following steps:
+To get started with this project, follow these steps:
 
-1. **Pre-engagement Interactions**
-2. **Intelligence Gathering (Reconnaissance)**
-3. **Threat Modeling**
-4. **Vulnerability Analysis**
-5. **Exploitation**
-6. **Post-Exploitation**
-7. **Reporting**
+1. Clone the repository:
+    ```
+    git clone https://github.com/yourusername/network-security-audit.git
+    cd network-security-audit
+    ```
 
-## 🤔 Reflections on AI in Cybersecurity
+2. Install the required dependencies:
+    ```
+    pip install -r requirements.txt
+    ```
 
-- **Risks**: Automation of attacks by cybercriminals.
-- **Ethics**: Issues regarding privacy and individual freedoms.
-- **Regulation**: Limiting AI access and capabilities to prevent misuse.
-- **Fear of AI**: Preparing for potential threats.
+3. Run the analysis script:
+    ```
+    python Analyse.py
+    ```
 
-## 🔒 Recommendations
+4. Generate the audit report:
+    ```
+    python Resume.py
+    ```
 
-- Update firmware and software versions.
+## 📦 Dependencies
+
+Ensure you have the following Python libraries installed:
+
+- `psutil`: Provides system and process utilities
+- `subprocess`: Allows for spawning new processes, connecting to their input/output/error pipes, and obtaining their return codes
+- `platform`: Provides detailed information about the system
+- `os`: Provides a way of using operating system dependent functionality
+- `json`: Encodes and decodes JSON data
+- `datetime`: Supplies classes for manipulating dates and times
+- `python-docx`: Creates and updates Microsoft Word (.docx) files
+
+## 🔒 Security Recommendations
+
+- Regularly update firmware and software versions.
 - Restrict access to configuration pages.
 - Use strong and unique passwords.
+- Monitor system logs for suspicious activity.
 
 ## 📄 License
 
