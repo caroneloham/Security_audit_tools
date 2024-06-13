@@ -16,8 +16,8 @@ This repository contains scripts for performing a comprehensive network security
 
 ## 📂 Repository Content
 
-- `Analyse.py`: Script for collecting and analyzing system and network information.
-- `Resume.py`: Script for generating a detailed audit report in a Word document format.
+- `src/SecurityAuditTool.py`: Script for collecting and analyzing system and network information.
+- `src/made_wordformat.py`: Script for generating a detailed audit report in a Word document format.
 
 ## 🛠️ Setup and Usage
 
